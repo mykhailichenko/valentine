@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: calc(100vh - 20px);
     background-image: url("./background.jpg");
     background-size: cover;
     background-repeat: repeat;
@@ -84,11 +84,6 @@ body {
 }
 
 .no-btn:hover {
-    color: #910202;
-    background-color: #eef8ff;
-}
-
-.no-btn:active {
     color: #910202;
     background-color: #eef8ff;
 }

@@ -12,8 +12,8 @@ noBtn.addEventListener('click', () => {
     text.textContent = "Ти що задумала?"
 
 
-    let randomX = Math.floor(Math.random() * window.innerWidth);
-    let randomY = Math.floor(Math.random() * window.innerHeight);
+    let randomX = Math.floor(Math.random() * window.innerWidth - 2);
+    let randomY = Math.floor(Math.random() * window.innerHeight - 2);
 
     noBtn.style.position = 'absolute';
     noBtn.style.left = randomX + 'px';
